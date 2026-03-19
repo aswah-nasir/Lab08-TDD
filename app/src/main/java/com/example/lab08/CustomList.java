@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CustomList {
     private List<City> cities;
-
+//trigger CI
     public CustomList() {
         this.cities = new ArrayList<>();
     }
