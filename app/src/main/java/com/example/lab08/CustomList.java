@@ -5,16 +5,12 @@ import java.util.List;
 
 public class CustomList {
     private List<City> cities;
-//trigger CI
+
     public CustomList() {
         this.cities = new ArrayList<>();
     }
 
     public void addCity(City city) {
         cities.add(city);
-    }
-
-    public boolean hasCity(City city) {
-        return cities.contains(city);
     }
 }
