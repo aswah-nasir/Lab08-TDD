@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CustomListTest {
-    @Test //has city test
+    @Test // failing test for hasCity
     public void testHasCity() {
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "AB");
